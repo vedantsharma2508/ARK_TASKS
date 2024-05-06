@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 from matplotlib import pyplot as plt 
 
-img = cv.imread('Table.png',1)
+img = cv.imread('table.png',1)
 canny = cv.Canny(img,88,125)
 
 titles = ['img',"canny"]
